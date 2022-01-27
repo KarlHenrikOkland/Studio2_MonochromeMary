@@ -1,5 +1,5 @@
 # Studio2_TSFKH
-Studio 2 Assignment for Simen, Tom, Karl, Freysteinn
+Studio 2 Assignment for Simen, Tom, Karl Henrik, Freysteinn
 
 Scripts:
 To send codes, press the "Code" tab. At the top will be "Add files" where you can add a maximum of 25 MB per file. You can send leaflets, etc., only as long as there is only code.
