@@ -101,7 +101,7 @@ MonoBehaviour:
   m_MinSize: {x: 817, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 1
-  controlID: 134
+  controlID: 57
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_MinSize: {x: 817, y: 221}
   m_MaxSize: {x: 16006, y: 4021}
   vertical: 0
-  controlID: 135
+  controlID: 58
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -460,10 +460,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 4a48fdff3275feffd8a0feffbaa6feff5a23ffffba26ffff6a2effffe0bcffff18f8ffff6efbffff
+      scrollPos: {x: 0, y: 128}
+      m_SelectedIDs: d24f0000
+      m_LastClickedID: 20434
+      m_ExpandedIDs: 6efbffff0850000062500000a45000008e510000c4510000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -525,22 +525,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Notandi\Documents\Unity\Technical Direction\Studio2_TSFKH\Studio2_01
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ae500000
-    m_LastClickedID: 20654
-    m_ExpandedIDs: 00000000aa500000
+    m_SelectedIDs: 30520000
+    m_LastClickedID: 21040
+    m_ExpandedIDs: 0000000030520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -568,7 +568,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aa500000
+    m_ExpandedIDs: 0000000030520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -595,7 +595,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -685,9 +685,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 14.1354065, y: 4.1440907, z: -11.886901}
+    m_Target: {x: 20.20161, y: 2.1285334, z: -9.536849}
     speed: 2
-    m_Value: {x: 14.1354065, y: 4.1440907, z: -11.886901}
+    m_Value: {x: 20.20161, y: 2.1285334, z: -9.536849}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -732,15 +732,15 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     m_ShowGrid: 1
     m_GridAxis: 1
-    m_gridOpacity: 0.5
+    m_gridOpacity: 0.62
   m_Rotation:
-    m_Target: {x: -0.13008393, y: 0.674219, z: -0.122167915, w: -0.7167876}
+    m_Target: {x: -0.1763101, y: -0.77049285, z: 0.24187617, w: -0.5632095}
     speed: 2
-    m_Value: {x: -0.12988739, y: 0.6752251, z: -0.12235052, w: -0.715703}
+    m_Value: {x: -0.17711407, y: -0.7699545, z: 0.24297692, w: -0.5628169}
   m_Size:
-    m_Target: 12.66822
+    m_Target: 12.513049
     speed: 2
-    m_Value: 12.66822
+    m_Value: 12.513049
   m_Ortho:
     m_Target: 0
     speed: 2
