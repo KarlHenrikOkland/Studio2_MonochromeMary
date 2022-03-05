@@ -11,7 +11,6 @@ public class FirstPersonLook3 : MonoBehaviour
     public float smoothing = 2;
     private float rotX;
     private float rotY;
-    public Transform theKey;
   public float minTurnAngle = -90.0f;
     public float maxTurnAngle = 90.0f;
     public float turnSpeed = 4.0f;
@@ -32,8 +31,38 @@ public class FirstPersonLook3 : MonoBehaviour
 
     void Update()
     {
-         MouseAiming();
+         MouseAiming();  
+    }
 
+
+
+ void MouseAiming()
+    {
+        // get the mouse inputs
+        float y = Input.GetAxis("Mouse X") * turnSpeed;
+        rotX += Input.GetAxis("Mouse Y") * turnSpeed;
+
+        // clamp the vertical rotation
+        rotX = Mathf.Clamp(rotX, minTurnAngle, maxTurnAngle);
+
+        
+        // rotate the camera
+        
+        Vector3 camRot = theCam.transform.eulerAngles;
+        camRot.x = -rotX;
+        theCam.transform.eulerAngles = camRot;
+       
+
+        Vector3 body = transform.eulerAngles;
+        body.y += y;
+        transform.eulerAngles = body;
+
+
+    }
+
+
+    void Interaction()
+    {
         //  //World pos of where cursor is pointing
         //  Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width/2f, Screen.height/2f, 0f));
         //  RaycastHit hit;
@@ -66,38 +95,7 @@ public class FirstPersonLook3 : MonoBehaviour
         //     sensedObj = null;
 
         // }
-
-        
-  
-  
-  
     }
 
-
-
- void MouseAiming()
-    {
-        // get the mouse inputs
-        float y = Input.GetAxis("Mouse X") * turnSpeed;
-        rotX += Input.GetAxis("Mouse Y") * turnSpeed;
-
-        // clamp the vertical rotation
-        rotX = Mathf.Clamp(rotX, minTurnAngle, maxTurnAngle);
-
-        
-        // rotate the camera
-        
-        Vector3 camRot = theCam.transform.eulerAngles;
-        camRot.x = -rotX;
-        theCam.transform.eulerAngles = camRot;
-       
-
-        Vector3 body = transform.eulerAngles;
-        body.y += y;
-        transform.eulerAngles = body;
-
-
-    }
-
-
+    
 }
