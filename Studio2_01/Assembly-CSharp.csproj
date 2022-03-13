@@ -40,8 +40,8 @@
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\Prefabs\Player_Prefab\Scripts\FirstPersonLook3.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\Prefabs\Player_Prefab\Scripts\GroundCheck.cs" />
      <Compile Include="Assets\Prefabs\Player_Prefab\Scripts\Jump.cs" />
+     <Compile Include="Assets\Prefabs\Player_Prefab\Scripts\GroundCheck.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Users\Henrik\Documents\My Games\UnrealEngine\2020.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
